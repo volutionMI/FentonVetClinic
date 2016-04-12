@@ -1,0 +1,48 @@
+Last login: Tue Apr 12 18:49:32 on ttys000
+You have new mail.
+Volution:~ Volution$ cd /Applications/MAMP/htdocs/FentonVeterinaryClinic/wp-content/themes/bootstrap-to-wordpress
+Volution:bootstrap-to-wordpress Volution$ cd /sass
+-bash: cd: /sass: No such file or directory
+Volution:bootstrap-to-wordpress Volution$ cd 
+Volution:~ Volution$  cd /Applications/MAMP/htdocs/FentonVeterinaryClinic/wp-content/themes/bootstrap-to-wordpress/sass
+Volution:sass Volution$ run sass
+-bash: run: command not found
+Volution:sass Volution$ sass style.scss
+Error: File to import not found or unreadable: compass.
+        on line 15 of style.scss
+  Use --trace for backtrace.
+Volution:sass Volution$ config rb
+-bash: config: command not found
+Volution:sass Volution$ gem install sass
+Fetching: sass-3.4.22.gem (100%)
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+Volution:sass Volution$ ybr1k
+-bash: ybr1k: command not found
+Volution:sass Volution$ /
+-bash: /: is a directory
+Volution:sass Volution$ sudo gem install compass
+Password:
+    Compass is charityware. If you love it, please donate on our behalf at http://umdf.org/compass Thanks!
+Successfully installed compass-1.0.3
+Parsing documentation for compass-1.0.3
+1 gem installed
+Volution:sass Volution$ cd /bootstrap-to-wordpress
+-bash: cd: /bootstrap-to-wordpress: No such file or directory
+Volution:sass Volution$ cd /bootstrap-to-wordpress
+-bash: cd: /bootstrap-to-wordpress: No such file or directory
+Volution:sass Volution$ cd bootstrap-to-wordpress
+-bash: cd: bootstrap-to-wordpress: No such file or directory
+Volution:sass Volution$ cd ..
+Volution:bootstrap-to-wordpress Volution$ $compass watch
+-bash: watch: command not found
+Volution:bootstrap-to-wordpress Volution$ compass watch
+ modified config.rb
+    clean /Applications/MAMP/htdocs/FentonVeterinaryClinic/wp-content/themes/bootstrap-to-wordpress
+   delete style.css
+>>> Compass is watching for changes. Press Ctrl-C to Stop.
+    write style.css
+
+
+
+
