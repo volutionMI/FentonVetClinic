@@ -10,9 +10,11 @@
       <?php wp_title( '|', true, 'right' ); ?>
       <?php bloginfo( 'name' ); ?>
     </title>
-
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'> 
+  <link href='https://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css'>
     <?php wp_head(); ?>
-
+  <link href='https://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css'>
   </head>
 
   <body <?php body_class(); ?>>
