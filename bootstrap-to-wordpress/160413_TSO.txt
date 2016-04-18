@@ -1,0 +1,62 @@
+Last login: Wed Apr 13 10:30:42 on console
+You have new mail.
+Volution:~ Volution$ ybr1k
+-bash: ybr1k: command not found
+Volution:~ Volution$ cd /Applications/MAMP/htdocs/FentonVeterinaryClinic/wp-content/themes/bootstrap-to-wordpress/sass
+Volution:sass Volution$ Volution:sass Volution$ run sass
+-bash: Volution:sass: command not found
+Volution:sass Volution$ cd ..
+Volution:bootstrap-to-wordpress Volution$ compass watch
+>>> Compass is watching for changes. Press Ctrl-C to Stop.
+
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+    write style.css
+ modified sass/_partials/bootstrap/_navbar.scss
+    write style.css
+ modified sass/_partials/bootstrap/_navbar.scss
+    write style.css
+ modified sass/_partials/bootstrap/_navbar.scss
+    write style.css
+ modified sass/_partials/bootstrap/_variables.scss
+ modified sass/_partials/bootstrap/_navbar.scss
+ modified sass/_partials/bootstrap/_navbar.scss
+    write style.css
+ modified sass/_partials/bootstrap/_navbar.scss
+    write style.css
+ modified sass/_partials/bootstrap/_navbar.scss
+    write style.css
+
