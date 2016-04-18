@@ -29,6 +29,36 @@
 
 
     <?php wp_footer(); ?>
-
+	</div><!--end wrapper-->
   </body>
+		<script type="text/javascript" src="wp-content/themes/bootstrap-to-wordpress/js/jquery_002.js"></script>
+		<script type="text/javascript" src="wp-content/themes/bootstrap-to-wordpress/js/sfdelay.js"></script>
+		<!-- include jQuery library -->
+<script type="text/javascript" src="wp-content/themes/bootstrap-to-wordpress/js/jquery.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="wp-content/themes/bootstrap-to-wordpress/js/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});
+</script>
+
+<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="ie.css">
+		<![endif]-->
+        
+<!--[if lt IE 7]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+		<![endif]-->
+
+				<!--script type="text/javascript" src="IE6helper.js"></script-->
+		<script type="text/javascript">
+			function clearField(whichField)
+			{
+				document.getElementById(whichField).value = "";
+			}
+		</script>	</script>
+
 </html>

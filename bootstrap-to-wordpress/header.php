@@ -18,31 +18,68 @@
   </head>
 
   <body <?php body_class(); ?>>
+    <div class="wrapper">
+      <div class="headerone container" style="height:158px;">
+        <div class="row">
+            <div class="col-sm-3">
+              <div id="lefthead">
+                <div class="slideshow"> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_01.jpg" width="195" height="157" /> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_02.jpg" width="195" height="157" /> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_03.jpg" width="195" height="157" /> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_04.jpg" width="195" height="157" /> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_05.jpg" width="195" height="157" /> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_06.jpg" width="195" height="157" /> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_07.jpg" width="195" height="157" /> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_08.jpg" width="195" height="157" /> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_09.jpg" width="195" height="157" /> 
+                  <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_10.jpg" width="195" height="157" /> 
+                </div>
+              </div> 
+            </div>
+          <div class="col-sm-6"><p><a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></p>
+          </div>
+          <div class="col-sm-3">
+            <div id="lefthead">
+              <div class="slideshow"> 
+                <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_02.jpg" width="195" height="157" /> 
+                <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_03.jpg" width="195" height="157" /> 
+                <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_04.jpg" width="195" height="157" /> 
+                <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_05.jpg" width="195" height="157" /> 
+                <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_06.jpg" width="195" height="157" /> 
+                <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_07.jpg" width="195" height="157" /> 
+                <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_08.jpg" width="195" height="157" /> 
+                <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_09.jpg" width="195" height="157" /> 
+                <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_10.jpg" width="195" height="157" />  
+              </div>
+            </div>
+          </div>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                 
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <!-- class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
+                </div-->
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
-        </div>
+                <div class="navbar-collapse collapse">
 
-        <div class="navbar-collapse collapse">
+                  <?php 
+                    $args = array(
+                      'menu'        => 'header-menu',
+                      'menu_class'  => 'nav navbar-nav',
+                      'container'   => 'false'
+                    );
+                    wp_nav_menu( $args );
+                  ?>
 
-          <?php 
-            $args = array(
-              'menu'        => 'header-menu',
-              'menu_class'  => 'nav navbar-nav',
-              'container'   => 'false'
-            );
-            wp_nav_menu( $args );
-          ?>
+                </div><!--/.navbar-collapse -->
 
-        </div><!--/.navbar-collapse -->
-
-      </div>
-    </div>
+              </div>
+            </div>
+        </div><!--end headerone -->
+      
