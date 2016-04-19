@@ -17,13 +17,41 @@ ul.sub-menu {
 .headerone .col-sm-3 {
     background-color: #fff;
     border: solid #506f33 1px;
-    width: 195px;
-	padding: 0;}
-	
-.headerone .col-sm-7 {
-    background-color: #fff;
+    /*width: 195px;
+	padding: 0;*/
+	margin: auto -10px;}
+
+.headerone .col-sm-3:first-child {
+    margin-left: 0;}
+
+.headerone .col-sm-3:last-child {
+    margin-right: 0;}
+
+.topmid { 
     display: block;
     height: 158px;
-    border: 1px solid #008000;
-    margin: 0 7px;
+    }
+
+.headerone .col-sm-6 .row{ 
+    display: block;
+    height: auto;
+    }
+.col-sm-6.topmid {
+    background-image: url(/wp-content/themes/bootstrap-to-wordpress/images/Big_header.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-color: #fff;
+    border: 1px solid #506f33;
 }
+}
+.topmid .row.doctors .col-sm-6{
+	background:none;
+	border:none;
+	height: auto;
+	background-size:cover;
+}
+
+ .navbar .container {
+    height: auto;
+}
+

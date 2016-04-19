@@ -37,7 +37,21 @@
                 </div>
               </div> 
             </div>
-          <div class="col-sm-7"><p><a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></p>
+          <div class="col-sm-6 topmid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2><a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></h2>
+                  <h4>(810) 629-1564</h4>
+                </div>
+              </div>
+              <div class="row doctors">
+                <div class="col-sm-6"><h3>Jessica R. Rascuzzo, B.S. D.V.M.</h3></div>
+                <div class="col-sm-6"><h3>Paul R. Temblay, D.V.M.</h3></div>
+              </div>
+              <div class="row" "bbb">
+                <div class="col-sm-12"><p>Celebrating over 69 years or providing our ber best for you and your pet.</p>
+                </div>
+              </div>
           </div>
           <div class="col-sm-3">
             <div id="righthead">
@@ -53,10 +67,12 @@
                 <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_10.jpg" width="195" height="157" />  
               </div>
             </div>
-          </div></div>
-          <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
           <div class="row">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
               <div class="container">
                 <div class="navbar-header">
                     <span class="sr-only">Toggle navigation</span>
@@ -64,8 +80,8 @@
                     <span class="icon-bar"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <!-- class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>
-                </div-->
+                  <!-- class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>-->
+                </div
 
                 <div class="navbar-collapse collapse">
 
