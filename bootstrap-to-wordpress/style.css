@@ -196,7 +196,7 @@ sub {
 
 /* line 185, sass/_partials/bootstrap/_normalize.scss */
 img {
-  border: 0;
+  border: #506F33 solid 2px;
 }
 
 /* line 193, sass/_partials/bootstrap/_normalize.scss */
