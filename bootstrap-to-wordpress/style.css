@@ -196,7 +196,7 @@ sub {
 
 /* line 185, sass/_partials/bootstrap/_normalize.scss */
 img {
-  border: #506F33 solid 2px;
+  border: 0;
 }
 
 /* line 193, sass/_partials/bootstrap/_normalize.scss */
@@ -5736,9 +5736,9 @@ tbody.collapse.in {
 /* line 138, sass/_partials/bootstrap/_navbar.scss */
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  position: fixed;
-  right: 0;
-  left: 0;
+  /* position: fixed;*/
+  /* right: 0;
+   left: 0;*/
   z-index: 1030;
 }
 @media (min-width: 768px) {
@@ -5751,7 +5751,7 @@ tbody.collapse.in {
 
 /* line 150, sass/_partials/bootstrap/_navbar.scss */
 .navbar-fixed-top {
-  top: 0;
+  /*top: 0;*/
   border-width: 0 0 1px;
 }
 

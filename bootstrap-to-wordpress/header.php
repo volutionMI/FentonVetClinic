@@ -37,10 +37,10 @@
                 </div>
               </div> 
             </div>
-          <div class="col-sm-6"><p><a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></p>
+          <div class="col-sm-7"><p><a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></p>
           </div>
           <div class="col-sm-3">
-            <div id="lefthead">
+            <div id="righthead">
               <div class="slideshow"> 
                 <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_02.jpg" width="195" height="157" /> 
                 <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_03.jpg" width="195" height="157" /> 
@@ -53,11 +53,12 @@
                 <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_10.jpg" width="195" height="157" />  
               </div>
             </div>
-          </div>
+          </div></div>
+          <div class="clearfix"></div>
+          <div class="row">
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
               <div class="container">
                 <div class="navbar-header">
-                 
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></span>
@@ -78,7 +79,7 @@
                   ?>
 
                 </div><!--/.navbar-collapse -->
-
+                <div>
               </div>
             </div>
         </div><!--end headerone -->
