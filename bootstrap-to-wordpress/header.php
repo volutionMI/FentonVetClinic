@@ -40,7 +40,7 @@
           <div class="col-sm-6 topmid">
               <div class="row">
                 <div class="col-sm-12">
-                  <h2><a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></h2>
+                  <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><h2><?php bloginfo( 'name' ); ?></h2></a>
                   <h4>(810) 629-1564</h4>
                 </div>
               </div>
@@ -48,8 +48,8 @@
                 <div class="col-sm-6"><h3>Jessica R. Rascuzzo, B.S. D.V.M.</h3></div>
                 <div class="col-sm-6"><h3>Paul R. Temblay, D.V.M.</h3></div>
               </div>
-              <div class="row" "bbb">
-                <div class="col-sm-12"><p>Celebrating over 69 years or providing our ber best for you and your pet.</p>
+              <div class="row bbb">
+                <div class="col-sm-12"><p>Celebrating over 69 years or providing<br />our very best for you and your pet.</p>
                 </div>
               </div>
           </div>
