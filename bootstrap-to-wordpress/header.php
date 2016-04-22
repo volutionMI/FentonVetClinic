@@ -49,8 +49,7 @@
                 <div class="col-sm-6"><h3>Paul R. Temblay, D.V.M.</h3></div>
               </div>
               <div class="row bbb">
-                <div class="col-sm-12"><p>Celebrating over 69 years or providing<br />our very best for you and your pet.</p>
-                </div>
+                <div class="col-sm-12"><p>Celebrating over 69 years or providing<br />our very best for you and your pet.</p></div>
               </div>
           </div>
           <div class="col-sm-3">
@@ -98,5 +97,6 @@
                 <div>
               </div>
             </div>
-        </div><!--end headerone -->
+        </div>
+      </div><!--end headerone -->
       

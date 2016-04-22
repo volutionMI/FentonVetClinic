@@ -42,13 +42,15 @@ ul.sub-menu {
     background-size: contain;
     background-color: #fff;
     border: 1px solid #506f33;
+    margin: 0 10px;
 
 }
 .topmid .row.doctors .col-sm-6{
 	background:none;
 	border:none;
 	height: auto;
-	background-size:cover;
+	/*background-size:cover;*/
+    padding:0;
 }
 
  .navbar .container {
@@ -87,11 +89,11 @@ a.navbar-brand h2 {
     font-size: 1.7em;
     font-weight: 600;
     margin-top: -12px;
-    margin-bottom: -5px;
+    margin-bottom: 0px;
 }
 
 .row.doctors {
-    padding: 0 35px;
+    padding: 0 60px;
 }
 
 
@@ -101,6 +103,7 @@ a.navbar-brand h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 1em;
+    margin-top: 25px;
 }
 
 .row.bbb p {
@@ -109,7 +112,7 @@ a.navbar-brand h2 {
     text-align: center;
     font-size: 1.2em;
     line-height: 1.3;
-    margin-top: -5px;
+    margin-top: -4px;
 }
 
 

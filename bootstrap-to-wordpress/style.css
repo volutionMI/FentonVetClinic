@@ -6136,7 +6136,7 @@ tbody.collapse.in {
 /* line 532, sass/_partials/bootstrap/_navbar.scss */
 .navbar-inverse {
   background-color: #fff;
-  border-color: #e6e6e6;
+  border-color: #506D35;
 }
 /* line 536, sass/_partials/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-brand {
@@ -6195,11 +6195,11 @@ tbody.collapse.in {
 @media (max-width: 767px) {
   /* line 608, sass/_partials/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #e6e6e6;
+    border-color: #506D35;
   }
   /* line 611, sass/_partials/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #e6e6e6;
+    background-color: #506D35;
   }
   /* line 614, sass/_partials/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
