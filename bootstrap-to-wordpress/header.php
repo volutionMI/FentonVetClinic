@@ -15,13 +15,14 @@
     <?php wp_head(); ?>
   <link href='https://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet' type='text/css'>
   </head>
 
   <body <?php body_class(); ?>>
     <div class="wrapper">
-      <div class="headerone container" style="height:158px;">
+      <div class="headerone container">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="hidden-sm visible-md-block col-md-3 visible-lg-block col-lg-3">
               <div id="lefthead">
                 <div class="slideshow"> 
                   <img src="wp-content/themes/bootstrap-to-wordpress/images/dog_01.jpg" width="195" height="157" /> 
@@ -37,7 +38,7 @@
                 </div>
               </div> 
             </div>
-          <div class="col-sm-6 topmid">
+          <div class="col-sm-12 col-md-6 col-lg-6 topmid">
               <div class="row">
                 <div class="col-sm-12">
                   <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><h2><?php bloginfo( 'name' ); ?></h2></a>
@@ -45,14 +46,14 @@
                 </div>
               </div>
               <div class="row doctors">
-                <div class="col-sm-6"><h3>Jessica R. Rascuzzo, B.S. D.V.M.</h3></div>
-                <div class="col-sm-6"><h3>Paul R. Temblay, D.V.M.</h3></div>
+                <div class="col-lg-6 col-md-6 col-sm-12"><h3>Jessica R. Pascuzzo, B.S.&nbsp;D.V.M.</h3></div>
+                <div class="col-lg-6 col-md-6 col-sm-12"><h3>Paul R. Temblay, D.V.M.</h3></div>
               </div>
               <div class="row bbb">
-                <div class="col-sm-12"><p>Celebrating over 69 years or providing<br />our very best for you and your pet.</p></div>
-              </div>
+                <div class="col-sm-12"></div><p>Celebrating&nbsp;over&nbsp;69&nbsp;years&nbsp;of providing our very best&nbsp;for&nbsp;you&nbsp;and&nbsp;your&nbsp;pet.</p></div>
+              <div class="bbbimage"></div>
           </div>
-          <div class="col-sm-3">
+          <div class="hidden-sm visible-md-block col-md-3 visible-lg-block col-lg-3">
             <div id="righthead">
               <div class="slideshow"> 
                 <img src="wp-content/themes/bootstrap-to-wordpress/images/cat_02.jpg" width="195" height="157" /> 
@@ -69,34 +70,30 @@
           </div>
         </div>
         <div class="clearfix"></div>
-
-          <div class="row">
-            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-              <div class="container">
-                <div class="navbar-header">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <!-- class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a>-->
-                </div
-
-                <div class="navbar-collapse collapse">
-
-                  <?php 
-                    $args = array(
-                      'menu'        => 'header-menu',
-                      'menu_class'  => 'nav navbar-nav',
-                      'container'   => 'false'
-                    );
-                    wp_nav_menu( $args );
-                  ?>
-
-                </div><!--/.navbar-collapse -->
-                <div>
-              </div>
+        <div class="row">
+          <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"> 
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div
+              <div class="navbar-collapse collapse">
+                <?php 
+                  $args = array(
+                    'menu'        => 'header-menu',
+                    'menu_class'  => 'nav navbar-nav',
+                    'container'   => 'false'
+                  );
+                  wp_nav_menu( $args );
+                ?>
+              </div><!--/.navbar-collapse -->
+              <div>
             </div>
+          </div>
         </div>
       </div><!--end headerone -->
       
