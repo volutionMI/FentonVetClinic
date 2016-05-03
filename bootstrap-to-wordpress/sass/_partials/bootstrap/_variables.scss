@@ -374,7 +374,7 @@ $navbar-default-bg:                #f8f8f8 !default;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
-$navbar-default-link-color:                $gray-base;
+$navbar-default-link-color:                $brand-info;
 $navbar-default-link-hover-color:          #333 !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         $brand-warning !default;
@@ -400,7 +400,7 @@ $navbar-inverse-bg:                         #fff;
 $navbar-inverse-border:                     $brand-primary;
 
 // Inverted navbar links
-$navbar-inverse-link-color:                 $gray-base;
+$navbar-inverse-link-color:                 $brand-info;
 $navbar-inverse-link-hover-color:           #ab9854 !default;
 $navbar-inverse-link-hover-bg:              transparent !default;
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color;

@@ -151,17 +151,36 @@ background-color:#fff;border: solid #506f33 1px;}
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    background-color: #ffF;
+    background-color: #ffF;}
 
-/*media queries*/
-
-@media (min-width: 768px)
-.collapse {
-    display: none;}
+.nav.navbar-nav a{
+    color: #67561E;
+}
+.nav.navbar-nav a:hover{
+    color: #AD1232;
 }
 
+.nav.navbar-nav li {
+   border-bottom: 1px solid #AD1232;
+   border-right: none;
+}
 
-/*.row.doctors h3 {
-    font-size: 1.7em;
-    margin-top: 25px;}*/
+.nav.navbar-nav li:last-child {
+   border-bottom: none;
+   border-right: none;
+}
+/*media queries*/
+
+@media (min-width: 768px) {
+.nav-collapse.collapse {
+    display: block;}
+
+.nav.navbar-nav li {
+   border-right: 1px solid #AD1232;
+   border-bottom: 0 ;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+}
+
 
