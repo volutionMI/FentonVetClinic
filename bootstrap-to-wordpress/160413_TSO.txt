@@ -60,3 +60,4 @@ Volution:bootstrap-to-wordpress Volution$ compass watch
  modified sass/_partials/bootstrap/_navbar.scss
     write style.css
 
+check
