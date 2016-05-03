@@ -1812,12 +1812,12 @@ textarea {
 
 /* line 49, sass/_partials/bootstrap/_scaffolding.scss */
 a {
-  color: #E4CE63;
+  color: #AD1232;
   text-decoration: none;
 }
 /* line 53, sass/_partials/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #d6b725;
+  color: #680b1e;
   text-decoration: underline;
 }
 /* line 59, sass/_partials/bootstrap/_scaffolding.scss */
@@ -4739,7 +4739,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 /* line 96, sass/_partials/bootstrap/_buttons.scss */
 .btn-link {
-  color: #E4CE63;
+  color: #AD1232;
   font-weight: normal;
   border-radius: 0;
 }
@@ -4755,7 +4755,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 /* line 115, sass/_partials/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #d6b725;
+  color: #680b1e;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -5453,7 +5453,7 @@ tbody.collapse.in {
 /* line 46, sass/_partials/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #E4CE63;
+  border-color: #AD1232;
 }
 /* line 59, sass/_partials/bootstrap/_navs.scss */
 .nav .nav-divider {
@@ -6052,7 +6052,7 @@ tbody.collapse.in {
 }
 /* line 416, sass/_partials/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
-  color: #67561E;
+  color: #000;
 }
 /* line 419, sass/_partials/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -6094,7 +6094,7 @@ tbody.collapse.in {
 @media (max-width: 767px) {
   /* line 474, sass/_partials/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #67561E;
+    color: #000;
   }
   /* line 476, sass/_partials/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -6114,7 +6114,7 @@ tbody.collapse.in {
 }
 /* line 507, sass/_partials/bootstrap/_navbar.scss */
 .navbar-default .navbar-link {
-  color: #67561E;
+  color: #000;
 }
 /* line 509, sass/_partials/bootstrap/_navbar.scss */
 .navbar-default .navbar-link:hover {
@@ -6122,7 +6122,7 @@ tbody.collapse.in {
 }
 /* line 514, sass/_partials/bootstrap/_navbar.scss */
 .navbar-default .btn-link {
-  color: #67561E;
+  color: #000;
 }
 /* line 516, sass/_partials/bootstrap/_navbar.scss */
 .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
@@ -6153,7 +6153,7 @@ tbody.collapse.in {
 }
 /* line 550, sass/_partials/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a {
-  color: #67561E;
+  color: #000;
 }
 /* line 553, sass/_partials/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -6203,7 +6203,7 @@ tbody.collapse.in {
   }
   /* line 614, sass/_partials/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #67561E;
+    color: #000;
   }
   /* line 616, sass/_partials/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -6223,7 +6223,7 @@ tbody.collapse.in {
 }
 /* line 642, sass/_partials/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link {
-  color: #67561E;
+  color: #000;
 }
 /* line 644, sass/_partials/bootstrap/_navbar.scss */
 .navbar-inverse .navbar-link:hover {
@@ -6231,7 +6231,7 @@ tbody.collapse.in {
 }
 /* line 649, sass/_partials/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link {
-  color: #67561E;
+  color: #000;
 }
 /* line 651, sass/_partials/bootstrap/_navbar.scss */
 .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
@@ -6284,7 +6284,7 @@ tbody.collapse.in {
   padding: 6px 12px;
   line-height: 1.42857;
   text-decoration: none;
-  color: #E4CE63;
+  color: #AD1232;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -6307,7 +6307,7 @@ tbody.collapse.in {
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   z-index: 3;
-  color: #d6b725;
+  color: #680b1e;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -6545,7 +6545,7 @@ a.label:hover, a.label:focus {
 }
 /* line 41, sass/_partials/bootstrap/_badges.scss */
 .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #E4CE63;
+  color: #AD1232;
   background-color: #fff;
 }
 /* line 47, sass/_partials/bootstrap/_badges.scss */
@@ -6649,7 +6649,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #E4CE63;
+  border-color: #AD1232;
 }
 
 /* line 9, sass/_partials/bootstrap/_alerts.scss */

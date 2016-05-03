@@ -129,25 +129,39 @@ background-color:#fff;border: solid #506f33 1px;}
     height: auto;
 }
 
-  .navbar {  position: relative;
+  .navbar {
     min-height: 25px;
     margin-bottom:0;
     border-top: 1px solid #506f33;
 }
 
 
-.navbar-toggle {
+.navbar-toggle.btn-navbar.btn{
     margin-right: 0; 
-    margin-top: 1px;
-    margin-bottom: -4px; 
+    margin-top: 4px;
+    margin-bottom: 4px; 
     background-color: #ad1232;
     background-image: none;
+    padding: 3px;
+    z-index: 25;
 }
 
-/*media queries/*
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #ffF;
+
+/*media queries*/
+
+@media (min-width: 768px)
+.collapse {
+    display: none;}
+}
 
 
-.row.doctors h3 {
+/*.row.doctors h3 {
     font-size: 1.7em;
-    margin-top: 25px;}
+    margin-top: 25px;}*/
 

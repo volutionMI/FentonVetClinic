@@ -52,7 +52,7 @@
               <div class="row bbb">
                 <div class="col-sm-12"></div><p>Celebrating&nbsp;over&nbsp;69&nbsp;years&nbsp;of providing our very best&nbsp;for&nbsp;you&nbsp;and&nbsp;your&nbsp;pet.</p></div>
               <div class="bbbimage"></div>
-          </div>
+          </div><!--topmid-->
           <div class="hidden-sm visible-md-block col-md-3 visible-lg-block col-lg-3">
             <div id="righthead">
               <div class="slideshow"> 
@@ -68,32 +68,30 @@
               </div>
             </div>
           </div>
-        </div>
+        </div><!--row-->
         <div class="clearfix"></div>
         <div class="row">
-          <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-              <div class="navbar-header">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"> 
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div
-              <div class="navbar-collapse collapse">
-                <?php 
-                  $args = array(
-                    'menu'        => 'header-menu',
-                    'menu_class'  => 'nav navbar-nav',
-                    'container'   => 'false'
-                  );
-                  wp_nav_menu( $args );
-                ?>
-              </div><!--/.navbar-collapse -->
-              <div>
-            </div>
-          </div>
-        </div>
+          <nav>
+            <div class="navbar navbar-fixed-top">
+              <div class="navbar-inner from-top">
+                <div class="container">
+                  <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>            
+                  <div class="nav-collapse collapse">  
+                      <?php 
+                      $args = array(
+                        'menu'        => 'header-menu',
+                        'menu_class'  => 'nav navbar-nav',
+                        'container'   => 'false'
+                      );
+                      wp_nav_menu( $args );
+                    ?>
+                </div><!--/.navbar-collapse -->
+            </div><!--container-->
+          </nav>
+        </div><!--row-->
       </div><!--end headerone -->
       
