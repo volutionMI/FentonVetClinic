@@ -1,11 +1,10 @@
 <?php get_header(); ?>
+  <div class="container main"> 
+    <?php get_sidebar(); ?>       
+      <div class="col-md-9"> 
+        <div class="inner"> 
 
-  <div class="container">   
-    <div class="row">
-      
-      <div class="col-md-9">
-
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+          <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
           <div class="page-header">
             <h1><?php the_title(); ?></h1>
@@ -13,21 +12,16 @@
 
           <?php the_content(); ?>
 
-        <?php endwhile; else: ?>
-          
+          <?php endwhile; else: ?>
+            
           <div class="page-header">
             <h1>Oh no!</h1>
           </div>
+            <p>No content is appearing for this page!</p>
+          <?php endif; ?>
+        </div><!--inner-->
+      </div><!--col-md-9-->
+    <?php get_sidebar( 'blog'); ?>
 
-          <p>No content is appearing for this page!</p>
-
-        <?php endif; ?>
-
-
-      </div>
-      
-      <?php get_sidebar(); ?>
-
-    </div>
 
 <?php get_footer(); ?>

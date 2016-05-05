@@ -1,9 +1,10 @@
-      <hr>
+      <div class="clearfix"></div>
+      <div class="container footie">
 
       <footer>
-        <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?></p>
+        <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?>© 2012 Fenton Veterinary Clinic. All rights reserved. If you have any web issues, please <a href="mailto:mbuecking@thinkvolution.com?&subject=FVC%20Website%20Question">contact Webmaster</a> Site design by <a href="http://www.thinkvolution.com/" target="_new">Volution</a></p>
       </footer>
-    </div> <!-- /container -->
+   </div><!-- /container -->
 
 
 	<div class="modal fade" id="contactForm">
@@ -29,14 +30,14 @@
 
 
     <?php wp_footer(); ?>
-	</div><!--end wrapper-->
+	</div><!--main.content-->
   </body>
-		<script type="text/javascript" src="wp-content/themes/bootstrap-to-wordpress/js/jquery_002.js"></script>
-		<script type="text/javascript" src="wp-content/themes/bootstrap-to-wordpress/js/sfdelay.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery_002.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/sfdelay.js"></script>
 		<!-- include jQuery library -->
-<script type="text/javascript" src="wp-content/themes/bootstrap-to-wordpress/js/jquery.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.js"></script>
 <!-- include Cycle plugin -->
-<script type="text/javascript" src="wp-content/themes/bootstrap-to-wordpress/js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.cycle.all.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
     $('.slideshow').cycle({
