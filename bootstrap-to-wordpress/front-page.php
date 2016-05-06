@@ -6,6 +6,7 @@
 		</div><!--inner-->
     </div><!--col-md-6-->
     <?php get_sidebar( 'right' ); ?>
+</div>
    
 <?php get_footer(); ?> 
 	   

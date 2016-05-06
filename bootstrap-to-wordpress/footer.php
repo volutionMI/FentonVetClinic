@@ -2,7 +2,7 @@
       <div class="container footie">
 
       <footer>
-        <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?>© 2012 Fenton Veterinary Clinic. All rights reserved. If you have any web issues, please <a href="mailto:mbuecking@thinkvolution.com?&subject=FVC%20Website%20Question">contact Webmaster</a> Site design by <a href="http://www.thinkvolution.com/" target="_new">Volution</a></p>
+        <p><?php bloginfo('name'); ?> <?php echo date('Y'); ?> All rights reserved. If you have any web issues, please <a href="mailto:mbuecking@thinkvolution.com?&subject=FVC%20Website%20Question">contact Webmaster</a> Site design by <a href="http://www.thinkvolution.com/" target="_new">Volution</a></p>
       </footer>
    </div><!-- /container -->
 

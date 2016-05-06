@@ -1,6 +1,15 @@
-<?php get_header( 'alt'); ?>
-  <div class="container main"> 
-    <?php get_sidebar( 'default'); ?>       
+>?php
+/*
+
+
+
+Template Name: Right_Sidebar
+
+
+
+ */
+<?php get_header( 'alt' ); ?>
+  <div class="container main">     
       <div class="col-md-9"> 
         <div class="inner"> 
 
@@ -21,7 +30,7 @@
           <?php endif; ?>
         </div><!--inner-->
       </div><!--col-md-9-->
-
+    <?php get_sidebar( 'right'); ?>
 
 
 <?php get_footer(); ?>

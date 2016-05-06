@@ -29,24 +29,8 @@
 
   <body <?php body_class(); ?> >
       <div class="headerone container">
-        <div class="row">
-            <div class="hidden-sm visible-md-block col-md-3 visible-lg-block col-lg-3">
-              <div id="lefthead">
-                <div class="slideshow"> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_01.jpg" width="195" height="157" /> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_02.jpg" width="195" height="157" /> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_03.jpg" width="195" height="157" /> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_04.jpg" width="195" height="157" /> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_05.jpg" width="195" height="157" /> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_06.jpg" width="195" height="157" /> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_07.jpg" width="195" height="157" /> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_08.jpg" width="195" height="157" /> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_09.jpg" width="195" height="157" /> 
-                  <img src="<?php bloginfo('template_directory');?>/images/dog_10.jpg" width="195" height="157" /> 
-                </div>
-              </div> 
-            </div>
-          <div class="col-sm-12 col-md-6 col-lg-6 topmid">
+        <div class="row">   
+          <div class="col-sm-12 col-md-9 col-lg-9 topmid">
               <div class="row">
                 <div class="col-sm-12">
                   <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>"><h2><?php bloginfo( 'name' ); ?></h2></a>
@@ -62,19 +46,7 @@
               <div class="bbbimage"></div>
           </div><!--topmid-->
           <div class="hidden-sm visible-md-block col-md-3 visible-lg-block col-lg-3">
-            <div id="righthead">
-              <div class="slideshow"> 
-                <img src="/wp-content/themes/bootstrap-to-wordpress/images/cat_02.jpg" width="195" height="157" /> 
-                <img src="/wp-content/themes/bootstrap-to-wordpress/images/cat_03.jpg" width="195" height="157" /> 
-                <img src="/wp-content/themes/bootstrap-to-wordpress/images/cat_04.jpg" width="195" height="157" /> 
-                <img src="/wp-content/themes/bootstrap-to-wordpress/images/cat_05.jpg" width="195" height="157" /> 
-                <img src="/wp-content/themes/bootstrap-to-wordpress/images/cat_06.jpg" width="195" height="157" /> 
-                <img src="/wp-content/themes/bootstrap-to-wordpress/images/cat_07.jpg" width="195" height="157" /> 
-                <img src="/wp-content/themes/bootstrap-to-wordpress/images/cat_08.jpg" width="195" height="157" /> 
-                <img src="/wp-content/themes/bootstrap-to-wordpress/images/cat_09.jpg" width="195" height="157" /> 
-                <img src="/wp-content/themes/bootstrap-to-wordpress/images/cat_10.jpg" width="195" height="157" />  
-              </div>
-            </div>
+          
           </div>
         </div><!--row-->
         <div class="clearfix"></div>
