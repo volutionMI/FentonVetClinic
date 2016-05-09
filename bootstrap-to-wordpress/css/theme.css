@@ -215,7 +215,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4ce63', end
 
 .footie p a{color: #e4ce63;}
 
+.sidebar h2 {
+    font-size: 24px;
+    font-family: "Conv_NuevaStd-BoldCond", Georgia;
+}
 
+iframe{
+  border: 1px solid #506D35;
+}
+
+.headerone img {border:none;}
+
+.sidebar {
+    margin-top: 5px;
+}
+
+div#leftImage {
+    padding-top: 5px;
+}
 /*media queries*/
 
 @media (min-width: 768px) {
