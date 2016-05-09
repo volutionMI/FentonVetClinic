@@ -25,10 +25,10 @@
   <link href='https://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Mr+Dafoe' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet' type='text/css'>
-  </head>
+  </head><!--altheaders-->
 
   <body <?php body_class(); ?> >
-      <div class="headerone container">
+      <div class="headerone headerone-alt container">
         <div class="row">   
           <div class="col-sm-12 col-md-9 col-lg-9 topmid">
               <div class="row">
@@ -45,9 +45,8 @@
                 <div class="col-sm-12"></div><p>Celebrating&nbsp;over&nbsp;69&nbsp;years&nbsp;of providing our very best&nbsp;for&nbsp;you&nbsp;and&nbsp;your&nbsp;pet.</p></div>
               <div class="bbbimage"></div>
           </div><!--topmid-->
-          <div class="hidden-sm visible-md-block col-md-3 visible-lg-block col-lg-3">
-          
-          </div>
+          <?php get_sidebar( 'rightheader' ); ?>
+          <!--topright-->
         </div><!--row-->
         <div class="clearfix"></div>
         <div class="row">

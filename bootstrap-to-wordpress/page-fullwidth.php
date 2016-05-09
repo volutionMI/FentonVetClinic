@@ -4,12 +4,11 @@
 */
 
 ?>
-<?php get_header(); ?>
+<?php get_header( 'alt' ); ?>
 
-  <div class="container">   
-    <div class="row">
-      
-      <div class="col-md-12">
+  <div class="container main">   
+
+          <div class="inner"> 
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -30,7 +29,7 @@
         <?php endif; ?>
 
 
-      </div>      
+         
 
     </div>
 

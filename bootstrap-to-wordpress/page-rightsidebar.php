@@ -1,24 +1,19 @@
->?php
+<?php
 /*
+  Template Name: Right_Sidebar
+*/
 
+?>
 
-
-Template Name: Right_Sidebar
-
-
-
- */
 <?php get_header( 'alt' ); ?>
   <div class="container main">     
-      <div class="col-md-9"> 
-        <div class="inner"> 
-
-          <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
+  
+        <div class="col-md-9"> 
+          <div class="inner"> 
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <div class="page-header">
             <h1><?php the_title(); ?></h1>
           </div>
-
           <?php the_content(); ?>
 
           <?php endwhile; else: ?>
@@ -29,8 +24,8 @@ Template Name: Right_Sidebar
             <p>No content is appearing for this page!</p>
           <?php endif; ?>
         </div><!--inner-->
-      </div><!--col-md-9-->
-    <?php get_sidebar( 'right'); ?>
-
+      </div>
+        <?php get_sidebar( 'right' ); ?>
+   
 
 <?php get_footer(); ?>

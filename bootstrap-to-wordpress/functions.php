@@ -58,8 +58,7 @@ function create_widget( $name, $id, $description ) {
 }
 
 
-create_widget( 'Front Page Right', 'top-right', 'Displays on the right side of header' );
-
+create_widget( 'Header Right', 'top-right', 'Displays on the right side of header' );
 create_widget( 'Sidebar', 'left', 'Displays on the side of left pages with a sidebar' );
 create_widget( 'Right Sidebar', 'right', 'Displays on the right side of pages with a sidebar' );
 create_widget( 'Blog Sidebar', 'blog', 'Displays on the side of pages in the blog section' );

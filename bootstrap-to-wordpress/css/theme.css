@@ -58,7 +58,7 @@ background-color:#fff;border: solid #506f33 1px;}
     float:none; 
     margin-top: -15px;
 }
-.col-md-6.topmid, .col-lg-6.topmid {
+.topmid, .topmid {
     background: url('/wp-content/themes/bootstrap-to-wordpress/images/logoHead.png') no-repeat top left;
     background-color: #fff;
     background-size: 80px, auto:;
@@ -120,7 +120,7 @@ background-color:#fff;border: solid #506f33 1px;}
     background: url('/wp-content/themes/bootstrap-to-wordpress/images/BBB.png');
     width: 28px;
     position: relative;
-    bottom: 6px;
+    bottom: 36px;
     height: 46px;
     float: right;
     z-index: 1;
@@ -233,9 +233,52 @@ iframe{
 div#leftImage {
     padding-top: 5px;
 }
+
+
+
+
+.addressInfo {
+    background: #AB9856;
+    padding-top: 1px;
+    border-right: 1px solid #8B7B4A;
+    border-bottom: 1px solid #8B7B4A;
+    border-left: 1px solid #8B7B4A;
+}
+
+.address {
+    font-size: 14px;
+    font-family: arial, verdana, helvetica, sans-serif;
+    color: #FFF;
+    line-height: 150%;
+    padding: 6px;
+}
+
+.address a {
+    margin: 5px 0px 0px 0px;
+    display: block;
+    color: #EDDF9B;
+}
+
+.headerone .headerright {
+    margin: 15px;
+    background: #AB9856;
+    padding: 17px;
+}
+
+.headerright .addressInfo {
+    border: none;
+}
 /*media queries*/
 
 @media (min-width: 768px) {
+.bbbimage {
+    bottom: 6px;
+}
+
+.headerone .headerright {
+    margin: 0;
+        padding: 17px;
+}
 .nav-collapse.collapse {
     display: block;}
 
@@ -273,4 +316,12 @@ div#leftImage {
     width: 23%;}
 }
 
+.topmid, .topmid {
+    border-right: none;
+    border-left: none;
+   
+}
+
+.headerone .col-md-3:last-child, .headerone .col-lg-3:last-child {
+    border-left: 2px solid #008000;
 }

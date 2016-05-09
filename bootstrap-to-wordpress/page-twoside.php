@@ -1,3 +1,9 @@
+<?php
+/*
+  Template Name: Two sidebars
+*/
+
+?>
 <?php get_header(); ?>
    <div class="container main"> 
    	<?php get_sidebar(); ?>          
