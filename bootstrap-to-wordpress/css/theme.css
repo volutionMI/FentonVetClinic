@@ -59,9 +59,8 @@ background-color:#fff;border: solid #506f33 1px;}
     margin-top: -15px;
 }
 .topmid, .topmid {
-    background: url('/wp-content/themes/bootstrap-to-wordpress/images/logoHead.png') no-repeat top left;
+    background: url('/wp-content/themes/bootstrap-to-wordpress/images/logoHead.png') no-repeat left;
     background-color: #fff;
-    background-size: 80px, auto:;
     border-right: 1px solid #506f33;
     border-left: 1px solid #506f33;
     min-height: 157px;
@@ -95,9 +94,9 @@ background-color:#fff;border: solid #506f33 1px;}
 .row.doctors h3 {
     font-family: 'BenchNine', sans-serif;
     color: #ad1232;
-    /*text-transform: uppercase;*/
+    /* text-transform: uppercase; */
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-top: 0;
     letter-spacing: .02em;
     line-height: 1.1;
@@ -164,7 +163,7 @@ background-color:#fff;border: solid #506f33 1px;}
    border-bottom: 1px solid #AD1232;
    border-right: none;
     font-family: "Conv_NuevaStd-Cond", Georgia;
-    font-size: 1.4em;
+    font-size: 1.2em;
     letter-spacing: .03em;
 }
 
@@ -260,15 +259,20 @@ div#leftImage {
 }
 
 .headerone .headerright {
-    margin: 15px;
+    margin-top: 40px;
     background: #AB9856;
-    padding: 17px;
+    padding: 10px;
 }
 
 .headerright .addressInfo {
     border: none;
 }
 /*media queries*/
+@media (min-width: 991px) {
+.nav.navbar-nav li {
+    font-size: 1.4em;
+}
+}
 
 @media (min-width: 768px) {
 .bbbimage {
@@ -277,16 +281,28 @@ div#leftImage {
 
 .headerone .headerright {
     margin: 0;
-        padding: 17px;
+    padding: 17px;
 }
+
+.row.bbb p {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+.row.doctors h3 {
+    font-size: 1.7em;
+}
+
 .nav-collapse.collapse {
-    display: block;}
+    display: block;
+}
 
 .nav.navbar-nav li {
    border-right: 1px solid #AD1232;
    border-bottom: 0 ;
    margin-top: 4px;
-   margin-bottom: 2px;}
+   margin-bottom: 2px;
+}
 
 .main .col-md-7 {
     width: 100%;}
@@ -302,7 +318,8 @@ div#leftImage {
 }
 
 .main .col-md-3:first-child, .main .col-lg-3:first-child {
-    margin: auto -15px;}
+    margin: auto -15px;
+}
 
 .main .col-md-7 {
     width: 54%;
@@ -313,15 +330,16 @@ div#leftImage {
     padding-right: 0; 
     padding-left:0;
     /*margin-right: 10px;*/
-    width: 23%;}
+    width: 23%;
 }
+
 
 .topmid, .topmid {
     border-right: none;
-    border-left: none;
-   
+    border-left: none;  
 }
 
 .headerone .col-md-3:last-child, .headerone .col-lg-3:last-child {
-    border-left: 2px solid #008000;
+    border-left: 2px solid #008000;}
+
 }
