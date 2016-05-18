@@ -28,7 +28,7 @@
   </head><!--altheaders-->
 
   <body <?php body_class(); ?> >
-      <div class="headerone headerone-alt container">
+      <div class="headerone-alt container">
         <div class="row">   
           <div class="col-sm-12 col-md-9 col-lg-9 topmid">
               <div class="row">
