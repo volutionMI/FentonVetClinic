@@ -286,12 +286,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4ce63', end
 iframe{
   border: 1px solid #506D35;
 }
-}
+
 
 /*media queries*/
 @media (min-width: 991px) {
 .nav.navbar-nav li {
     font-size: 1.4em;
+}
+
+a.navbar-brand h2 {
+    font-size: .8em;}
+
+.topmid h4 {
+    font-size: 2em;}
+.headerone-alt a.navbar-brand h2 {
+    font-size: 1em;
+}
+
+.headerone-alt .row.doctors h3 {
+    font-size: 2em;
 }
 }
 
