@@ -12,7 +12,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 ul.sub-menu {
     display: none;
 }
-    
+div.slideshow {
+    margin: 30px auto 0 auto;
+    width:195px;
+    height:147px;
+} 
 .slideshow img {
     background-size: cover;
 }
@@ -132,16 +136,6 @@ background-color:#fff;border: solid #506f33 1px;}
 }*/
 .headerright .addressInfo {
     border: none;
-}
-/*.addressInfo {
-    background: #AB9856;
-    padding-top: 1px;
-    border-right: 1px solid #8B7B4A;
-    border-bottom: 1px solid #8B7B4A;
-    border-left: 1px solid #8B7B4A;
-}*/
-
-.addressInfo {
     margin:auto;
     width:200px;
 }
@@ -281,8 +275,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4ce63', end
     font-family: "Conv_NuevaStd-BoldCond", Georgia;
 }
 
+ .sidebar.right .addressInfo  { 
+    background: #AB9856;
+    padding-top: 1px;
+    border-right: 1px solid #8B7B4A;
+    border-bottom: 1px solid #8B7B4A;
+    border-left: 1px solid #8B7B4A;
+}
+
 iframe{
   border: 1px solid #506D35;
+}
 }
 
 /*media queries*/

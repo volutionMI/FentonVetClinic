@@ -231,7 +231,7 @@ function buildOptions($cont, $slides, els, options, o) {
 
 	// container requires non-static position so that slides can be position within
 	if ($cont.css('position') == 'static')
-		$cont.css('position', 'relative');
+		$cont.css('position', 'static');
 	if (opts.width)
 		$cont.width(opts.width);
 	if (opts.height && opts.height != 'auto')
@@ -257,7 +257,7 @@ function buildOptions($cont, $slides, els, options, o) {
 	var first = opts.startingSlide;
 
 	// set position and zIndex on all the slides
-	$slides.css({position: 'absolute', top:0, left:0}).hide().each(function(i) {
+		$slides.css({position: 'absolute'}).hide().each(function(i) {
 		var z;
 		if (opts.backwards)
 			z = first ? i <= first ? els.length + (i-first) : first-i : els.length-i;
@@ -468,7 +468,7 @@ function exposeAddSlide(opts, els) {
 			opts.els[prepend?'unshift':'push'](s); // shuffle needs this
 		opts.slideCount = els.length;
 
-		$s.css('position','absolute');
+		$s.css('position','static');
 		$s[prepend?'prependTo':'appendTo'](opts.$cont);
 
 		if (prepend) {
@@ -851,7 +851,7 @@ $.fn.cycle.transitions = {
 		});
 		opts.animIn	   = { opacity: 1 };
 		opts.animOut   = { opacity: 0 };
-		opts.cssBefore = { top: 0, left: 0 };
+		
 	}
 };
 
