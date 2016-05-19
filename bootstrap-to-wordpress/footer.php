@@ -40,7 +40,7 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.cycle.all.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-    $('.slideshow').cycle({
+ $('.slideshow').cycle({
 		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
 	});
 });
@@ -60,6 +60,8 @@ $(document).ready(function() {
 			{
 				document.getElementById(whichField).value = "";
 			}
-		</script>	</script>
+		</script>	
+
+
 
 </html>
