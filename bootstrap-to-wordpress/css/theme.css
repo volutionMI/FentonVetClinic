@@ -306,6 +306,11 @@ a.navbar-brand h2 {
 .headerone-alt .row.doctors h3 {
     font-size: 2em;
 }
+
+.headerone-alt .headerright {
+    padding-top: 25px;
+    padding-bottom: 28px;
+}
 }
 
 @media (min-width: 768px) {
