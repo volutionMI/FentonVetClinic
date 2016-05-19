@@ -1907,7 +1907,7 @@ hr {
 /* line 9, sass/_partials/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Conv_NuevaStd-BoldCond", Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   line-height: 1.1;
   color: #506D35;
@@ -2142,7 +2142,7 @@ a.text-danger:focus {
 /* line 138, sass/_partials/bootstrap/_type.scss */
 .page-header {
   padding-bottom: 8px;
-  margin: 36px 0 18px;
+  margin: 18px 0 18px;
   border-bottom: 1px solid #eeeeee;
 }
 

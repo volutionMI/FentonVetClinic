@@ -13,7 +13,7 @@ ul.sub-menu {
     display: none;
 }
 div.slideshow {
-    margin: 30px auto 0 auto;
+    margin: 10px auto 0 auto;
     width:195px;
     height:147px;
 } 
@@ -105,11 +105,15 @@ background-color:#fff;border: solid #506f33 1px;}
     color: #ab9854;
     font-family: "Conv_NuevaStd-CondItalic", Georgia;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.3;
     margin-top:0;
     letter-spacing: .04em;
     z-index:9;
+}
+
+.headerone-alt .row.bbb p {
+    font-size: 1.5em;
 }
 .bbbimage {
     background: url('/wp-content/themes/bootstrap-to-wordpress/images/BBB.png');
@@ -311,6 +315,13 @@ a.navbar-brand h2 {
     padding-top: 25px;
     padding-bottom: 28px;
 }
+.row.bbb p {
+    font-size: 1.7em;
+}
+
+.headerone-alt .row.bbb p {
+    font-size: 2em;
+}
 }
 
 @media (min-width: 768px) {
@@ -323,12 +334,13 @@ a.navbar-brand h2 {
 }
 
 
-
 .row.bbb p {
-    font-size: 1.8em;
     margin-top: 20px;
 }
 
+.headerone-alt .row.bbb p {
+    font-size: 1.7em;
+}
 .row.doctors h3 {
     font-size: 1.7em;
 }
