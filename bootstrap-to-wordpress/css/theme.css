@@ -8,6 +8,31 @@ Description: Classes unique to the theme
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+h5 {text-transform:uppercase;}
+
+ul{list-style-type: disc;
+}
+li {
+    list-style-position: inside;
+    font-weight:bold;
+    padding-top: 1em;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: 20px;
+  font-weight:normal;
+  padding-top: .01em;
+
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -1px;
+
+}
+
 
 ul.sub-menu {
     display: none;
@@ -225,6 +250,8 @@ a.navbar-brand h2 {
     font-family: "Conv_NuevaStd-Cond", Georgia;
     font-size: 1.2em;
     letter-spacing: .03em;
+    padding-top:0;
+    font-weight:normal;
 }
 
 .nav.navbar-nav li:last-child {
@@ -273,7 +300,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4ce63', end
 .footie p {color: #D0CAB5; text-align:center;}
 
 .footie p a{color: #e4ce63;}
+/* sidebar */
 
+.widget.left {
+    width: 300px;
+    margin: auto;
+}
 .sidebar h2 {
     font-size: 24px;
     font-family: "Conv_NuevaStd-BoldCond", Georgia;
@@ -289,6 +321,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4ce63', end
 
 iframe{
   border: 1px solid #506D35;
+}
+/*staff page styles */
+
+bioT {
+    min-height: 72px;
+    border-bottom: #506F33 1px solid;
+    width: 185px;
+    padding-bottom:0px;
+    margin-bottom: 5px;
+}
+
+.bioT img {
+    float: left;
+    width: 63px;
+    }
+    
+.bioT p {
+    font-size: 14px;
+margin: 0 0 0 60px;
+padding: 0 0 3px 13px;
+line-height: 110%;
+vertical-align: top;
+color: #aa112e;}
+
+.title {
+    font-style: italic;
+    color: #7D5A46 !important;}
+    
+.moreT{
+    font-size: 11px !important;
+    margin-left: 0;
+    padding-bottom: 15px;}
+    
+    
+    
+.bioM {
+    color: #481C10 !important;
+    text-align: center;
+    margin-top: 30px;
+}
+
+    
+.bioM img {
+    border: 1px solid #8B7B4A;
+text-align: center;
+    width: 480px;
+    margin-bottom: 15px;
 }
 
 

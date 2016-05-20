@@ -3,8 +3,7 @@
 
 function theme_styles() {
 
-	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
-	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
+
 	wp_enqueue_style( 'nueva_css', get_template_directory_uri() . '/css/nueva.css' );
 	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'theme_css', get_template_directory_uri() . '/css/theme.css' );
@@ -49,7 +48,7 @@ function create_widget( $name, $id, $description ) {
 		'name' => __( $name ),	 
 		'id' => $id, 
 		'description' => __( $description ),
-		'before_widget' => '<div id="'.$id.'" class="widget">',
+		'before_widget' => '<div class="widget '.$id.'">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3>',
 		'after_title' => '</h3>'

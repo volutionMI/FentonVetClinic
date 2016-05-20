@@ -1937,7 +1937,7 @@ h1, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: 18px;
-  margin-bottom: 9px;
+  margin-bottom: 6px;
 }
 /* line 30, sass/_partials/bootstrap/_type.scss */
 h1 small,
@@ -1994,7 +1994,7 @@ h4, .h4 {
 
 /* line 51, sass/_partials/bootstrap/_type.scss */
 h5, .h5 {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /* line 52, sass/_partials/bootstrap/_type.scss */
@@ -2142,17 +2142,16 @@ a.text-danger:focus {
 /* line 138, sass/_partials/bootstrap/_type.scss */
 .page-header {
   padding-bottom: 8px;
-  margin: 18px 0 18px;
-  border-bottom: 1px solid #eeeeee;
+  margin: 13.5px 0 0;
 }
 
-/* line 149, sass/_partials/bootstrap/_type.scss */
+/* line 148, sass/_partials/bootstrap/_type.scss */
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 9px;
 }
-/* line 153, sass/_partials/bootstrap/_type.scss */
+/* line 152, sass/_partials/bootstrap/_type.scss */
 ul ul,
 ul ol,
 ol ul,
@@ -2160,43 +2159,43 @@ ol ol {
   margin-bottom: 0;
 }
 
-/* line 167, sass/_partials/bootstrap/_type.scss */
+/* line 166, sass/_partials/bootstrap/_type.scss */
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
 
-/* line 173, sass/_partials/bootstrap/_type.scss */
+/* line 172, sass/_partials/bootstrap/_type.scss */
 .list-inline {
   padding-left: 0;
   list-style: none;
   margin-left: -5px;
 }
-/* line 177, sass/_partials/bootstrap/_type.scss */
+/* line 176, sass/_partials/bootstrap/_type.scss */
 .list-inline > li {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 185, sass/_partials/bootstrap/_type.scss */
+/* line 184, sass/_partials/bootstrap/_type.scss */
 dl {
   margin-top: 0;
   margin-bottom: 18px;
 }
 
-/* line 189, sass/_partials/bootstrap/_type.scss */
+/* line 188, sass/_partials/bootstrap/_type.scss */
 dt,
 dd {
   line-height: 1.42857;
 }
 
-/* line 193, sass/_partials/bootstrap/_type.scss */
+/* line 192, sass/_partials/bootstrap/_type.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 196, sass/_partials/bootstrap/_type.scss */
+/* line 195, sass/_partials/bootstrap/_type.scss */
 dd {
   margin-left: 0;
 }
@@ -2211,7 +2210,7 @@ dd {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 211, sass/_partials/bootstrap/_type.scss */
+  /* line 210, sass/_partials/bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -2221,38 +2220,38 @@ dd {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  /* line 218, sass/_partials/bootstrap/_type.scss */
+  /* line 217, sass/_partials/bootstrap/_type.scss */
   .dl-horizontal dd {
     margin-left: 180px;
   }
 }
 
-/* line 229, sass/_partials/bootstrap/_type.scss */
+/* line 228, sass/_partials/bootstrap/_type.scss */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #777777;
 }
 
-/* line 235, sass/_partials/bootstrap/_type.scss */
+/* line 234, sass/_partials/bootstrap/_type.scss */
 .initialism {
   font-size: 90%;
 }
 
-/* line 241, sass/_partials/bootstrap/_type.scss */
+/* line 240, sass/_partials/bootstrap/_type.scss */
 blockquote {
   padding: 9px 18px;
   margin: 0 0 18px;
   font-size: 16.25px;
   border-left: 5px solid #eeeeee;
 }
-/* line 250, sass/_partials/bootstrap/_type.scss */
+/* line 249, sass/_partials/bootstrap/_type.scss */
 blockquote p:last-child,
 blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
-/* line 257, sass/_partials/bootstrap/_type.scss */
+/* line 256, sass/_partials/bootstrap/_type.scss */
 blockquote footer,
 blockquote small,
 blockquote .small {
@@ -2261,14 +2260,14 @@ blockquote .small {
   line-height: 1.42857;
   color: #777777;
 }
-/* line 265, sass/_partials/bootstrap/_type.scss */
+/* line 264, sass/_partials/bootstrap/_type.scss */
 blockquote footer:before,
 blockquote small:before,
 blockquote .small:before {
   content: '\2014 \00A0';
 }
 
-/* line 274, sass/_partials/bootstrap/_type.scss */
+/* line 273, sass/_partials/bootstrap/_type.scss */
 .blockquote-reverse,
 blockquote.pull-right {
   padding-right: 15px;
@@ -2277,7 +2276,7 @@ blockquote.pull-right {
   border-left: 0;
   text-align: right;
 }
-/* line 286, sass/_partials/bootstrap/_type.scss */
+/* line 285, sass/_partials/bootstrap/_type.scss */
 .blockquote-reverse footer:before,
 .blockquote-reverse small:before,
 .blockquote-reverse .small:before,
@@ -2286,7 +2285,7 @@ blockquote.pull-right small:before,
 blockquote.pull-right .small:before {
   content: '';
 }
-/* line 287, sass/_partials/bootstrap/_type.scss */
+/* line 286, sass/_partials/bootstrap/_type.scss */
 .blockquote-reverse footer:after,
 .blockquote-reverse small:after,
 .blockquote-reverse .small:after,
@@ -2296,7 +2295,7 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 
-/* line 294, sass/_partials/bootstrap/_type.scss */
+/* line 293, sass/_partials/bootstrap/_type.scss */
 address {
   margin-bottom: 18px;
   font-style: normal;
