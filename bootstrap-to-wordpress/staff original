@@ -1,12 +1,20 @@
 <a name="Top" id="Top"></a>
 <div id="BioThumbContent"><h6>Our Veterinarians</h6>
-<div class="bioT"><img src="images/DrP_T.jpg" width="63" height="63" alt="Dr. Pascuzzo" />
-<p>Dr. Jessica Pascuzzo,&nbsp;D.V.M.</p>
-		[toggle title="<p class="moreT"><a href="#DrP">More about Dr.&nbsp;Pascuzzo</a></p>]</div> 
-        
+	<div class="bioT"><img src="images/DrP_T.jpg" width="63" height="63" alt="Dr. Pascuzzo" />
+	<p>Dr. Jessica Pascuzzo,&nbsp;D.V.M.</p>
+		[toggle title="<p class="moreT"><a href="#DrP">More about Dr.&nbsp;Pascuzzo</a></p>]</div>
+		<div class="bioM"><a name="DrP" id="DrP"></a><img src="images/DrP_M.jpg" alt="Dr. Pascuzzo"  />
+	  <p class="title"> Dr. Jessica Pascuzzo, B. S. D.V.M.&nbsp;<a class="moreT" href="#Top">Return to Top</a></p>
+ 
+	    <p>Dr. Jessica Pascuzzo purchased the clinic from Dr. Paul Tremblay in January 2014. She was raised in the small town of Durand where she spent much of her childhood playing sports and going "up north" to her family's cabin in Clare.Her love of animals started when she was barely walking.Her parents brought home her first pet when she was a year old – a chubby black Lab named Sergio who became her best friend for 10 years.As she got older, and more pets were added to the family, she found she had a special bond with animals and wanted to spend her life helping them.In fact, she knew as early as second grade that she wanted to become a veterinarian and that dream only grew stronger with time.In high school she found employment at a boarding and training kennel where she cared for dogs and cats as well as observing obedience classes.She then worked at the Genesee County Humane Society for a summer before heading off to college. 
+</p>
+	    <p>In 1998 Dr. Pascuzzo started undergraduate school at Michigan State University and earned her Bachelor of Science degree.During her summer breaks she worked as a veterinary assistant in a general practice in Flint, obtaining valuable experience in the field.She then went on to attend the College of Veterinary Medicine at MSU, earning her doctorate of Veterinary Medicine in 2005. During her time at the College of Veterinary Medicine she considered specializing in either dermatology or internal medicine, however eventually deciding that general practice was her true calling.In May of 2005 the Fenton Veterinary Clinic was fortunate enough to have her accept her first position as a licensed veterinarian, where she continues to be challenged and rewarded by her career choice.She greatly enjoys the wide variety of cases she sees in general practice, as well as the chance to get to know her patients and their families so well.	      </p>
+	    <p>Dr. Pascuzzo is a member of the American Veterinary Medical Association and the Michigan Veterinary Medical Association and regularly attends conferences and seminars to stay up-to-date on the latest medical advances and protocols.In her spare time Dr. Pascuzzo spends time with her family, which includes her husband, son and one dog called Jax and two cats. </p>
+  </div> 
+    [/toggle]    
         <div class="bioT"><img src="images/DrT_T.jpg" width="63" height="63" alt="Dr. Tremblay" />
 <p>Dr. Paul Tremblay,&nbsp;D.V.M.</p>
-			<p class="moreT"><a href="#Tr_T">More about Dr.&nbsp;Tremblay</a></p></div>
+			<p class="moreT"></p></div>
         
 
 <h6>Our Receptionists</h6> 

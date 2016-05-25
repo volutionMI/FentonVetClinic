@@ -345,6 +345,7 @@ bioT {
 .bioT img {
     float: left;
     width: 63px;
+    height: auto;
     margin-left: -15px;
     margin-right:10px;
     }
@@ -353,7 +354,7 @@ bioT {
     font-size: 14px;
     margin: 0 0 0 0;
     padding: 0;
-    line-height: 110%;
+    line-height: 130%;
     vertical-align: top;
     color: #aa112e;
     text-align: left;
@@ -362,30 +363,50 @@ bioT {
 .title {
     font-style: italic;
     color: #7D5A46 !important;}
+
 p.btn.btn-info.moreT {
     background-color: rgba(0, 0, 0, 0);
     border: none;
 }
 .moreT{
     margin-left: 0;
-    padding-bottom: 15px;}
+    padding-bottom: 45px;
+    color: #444;}
     
     
     
-.bioM {
+.bioM p{
     color: #481C10 !important;
-    text-align: center;
-    margin-top: 30px;
+    text-align: left;
+    margin-bottom: 10px;
 }
-
+.boxed {
+    margin:1em auto;
+}
     
 .bioM img {
     border: 1px solid #8B7B4A;
-text-align: center;
+    text-align: center;
     width: 480px;
     margin-bottom: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    float:none;
+    clear: both;
+}
+p.btn.btn-info.moreT {
+    background-color: rgba(0, 0, 0, 0);
 }
 
+.collapse.in {
+    display: block;
+}
+/*.collapse.in img {
+    width: 438px;
+    height: auto;
+    margin:0 auto;
+
+}*/
 
 /*media queries*/
 @media (min-width: 991px) {
