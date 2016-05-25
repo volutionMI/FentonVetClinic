@@ -323,7 +323,15 @@ iframe{
   border: 1px solid #506D35;
 }
 /*staff page styles */
+.page-id-41 h3 {
+    color: #AD1232;
+    margin: 0;
+    padding: 0;
+}
 
+.bioT.container {
+    width: 100%;
+}
 bioT {
     min-height: 72px;
     border-bottom: #506F33 1px solid;
@@ -331,26 +339,34 @@ bioT {
     padding-bottom:0px;
     margin-bottom: 5px;
 }
-
+.bioT h2 {
+    font-family: 'BenchNine', sans-serif;
+}
 .bioT img {
     float: left;
     width: 63px;
+    margin-left: -15px;
+    margin-right:10px;
     }
     
 .bioT p {
     font-size: 14px;
-margin: 0 0 0 60px;
-padding: 0 0 3px 13px;
-line-height: 110%;
-vertical-align: top;
-color: #aa112e;}
+    margin: 0 0 0 0;
+    padding: 0;
+    line-height: 110%;
+    vertical-align: top;
+    color: #aa112e;
+    text-align: left;
+}
 
 .title {
     font-style: italic;
     color: #7D5A46 !important;}
-    
+p.btn.btn-info.moreT {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
 .moreT{
-    font-size: 11px !important;
     margin-left: 0;
     padding-bottom: 15px;}
     
@@ -392,7 +408,7 @@ a.navbar-brand h2 {
 
 .headerone-alt .headerright {
     padding-top: 25px;
-    padding-bottom: 28px;
+    padding-bottom: 13px;
 }
 .row.bbb p {
     font-size: 1.7em;

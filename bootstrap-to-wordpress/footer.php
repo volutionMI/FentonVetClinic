@@ -35,13 +35,13 @@
 		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery_002.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/sfdelay.js"></script>
 		<!-- include jQuery library -->
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.js"></script>
-<!-- include Cycle plugin -->
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.cycle.all.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
- $('.slideshow').cycle({
-		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.js"></script>
+		<!-- include Cycle plugin -->
+		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.cycle.all.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+ 		$('.slideshow').cycle({
+			fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
 	});
 });
 </script>
