@@ -303,9 +303,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4ce63', end
 /* sidebar */
 
 .widget.left {
-    width: 300px;
     margin: auto;
+    width: 300px;
 }
+
+.widget.left #leftImage {
+   display:none;
+   }
 .sidebar h2 {
     font-size: 24px;
     font-family: "Conv_NuevaStd-BoldCond", Georgia;
@@ -331,7 +335,8 @@ iframe{
 }
 
 .bioT.container {
-    width: 100%;
+    /*width: 100%;*/
+    padding-bottom:1em;
 }
 bioT {
     min-height: 72px;
@@ -343,11 +348,14 @@ bioT {
 .bioT h2 {
     font-family: 'BenchNine', sans-serif;
 }
+.bioT.col-lg-12 {
+    padding-left: 0;
+}
 .bioT img {
     float: left;
     width: 63px;
     height: auto;
-    margin-left: -15px;
+    /*margin-left: -15px;*/
     margin-right:10px;
     }
     
@@ -442,6 +450,16 @@ a.navbar-brand h2 {
 }
 
 @media (min-width: 768px) {
+
+.widget.left {
+    margin: auto;
+    width: 100%;
+}
+
+.widget.left #leftImage {
+   display:block;
+   }
+
 .bbbimage {
     bottom: 6px;
 }

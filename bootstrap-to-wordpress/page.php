@@ -1,7 +1,7 @@
 <?php get_header( 'alt'); ?>
   <div class="container main"> 
     <?php get_sidebar( 'default'); ?>       
-      <div class="col-sm-12 col-md-9"> 
+      <div class="col-xs-12 col-sm-9"> 
         <div class="inner"> 
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
