@@ -33,7 +33,9 @@
 	</div><!--main.content-->
   </body>
 		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery_002.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/sfdelay_tour.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/sfdelay.js"></script>
+
 		<!-- include jQuery library -->
 		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.js"></script>
 		<!-- include Cycle plugin -->

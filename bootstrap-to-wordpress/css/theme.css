@@ -42,6 +42,13 @@ div.slideshow {
     width:195px;
     height:147px;
 } 
+
+#clinictour div.slideshow  {
+    /*margin: 10px auto 0 auto;*/
+    width: 0;
+    /*height:147px;*/
+    float: left;
+} 
 .slideshow img {
     background-size: cover;
 }
