@@ -1,4 +1,4 @@
-<div class=" col-sm-12 col-md-3 sidebar right">
+<div class=" col-xs-12 col-sm-3 sidebar right">
 
 	<?php if ( ! dynamic_sidebar( 'right' ) ): ?>
 
