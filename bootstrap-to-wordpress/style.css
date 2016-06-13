@@ -8262,21 +8262,21 @@ button.close {
 }
 /* line 108, sass/_partials/bootstrap/_carousel.scss */
 .carousel-control.left {
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
 }
 /* line 111, sass/_partials/bootstrap/_carousel.scss */
 .carousel-control.right {
   left: auto;
   right: 0;
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
 }
 /* line 118, sass/_partials/bootstrap/_carousel.scss */
 .carousel-control:hover, .carousel-control:focus {
@@ -8388,25 +8388,38 @@ button.close {
     margin-top: -15px;
     font-size: 30px;
   }
-  /* line 248, sass/_partials/bootstrap/_carousel.scss */
+  /* line 249, sass/_partials/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     margin-left: -15px;
+    background-image: url(../images/arrow-left-1.png) !important;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.74);
+    left: 15px;
+    margin-right: -15px;
   }
-  /* line 252, sass/_partials/bootstrap/_carousel.scss */
+  /* line 259, sass/_partials/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
+    background-image: url(../images/arrow-right-1.png) !important;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.74);
+    right: 15px;
     margin-right: -15px;
   }
 
-  /* line 259, sass/_partials/bootstrap/_carousel.scss */
+  /* line 272, sass/_partials/bootstrap/_carousel.scss */
   .carousel-caption {
     left: 20%;
     right: 20%;
     padding-bottom: 30px;
   }
 
-  /* line 266, sass/_partials/bootstrap/_carousel.scss */
+  /* line 279, sass/_partials/bootstrap/_carousel.scss */
   .carousel-indicators {
     bottom: 20px;
   }

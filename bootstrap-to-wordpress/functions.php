@@ -5,6 +5,7 @@ function theme_styles() {
 
 
 	wp_enqueue_style( 'nueva_css', get_template_directory_uri() . '/css/nueva.css' );
+	wp_enqueue_style( 'halflings_css', get_template_directory_uri() . '/css/nueva.css' );
 	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'theme_css', get_template_directory_uri() . '/css/theme.css' );
 
@@ -21,7 +22,8 @@ function theme_js() {
 	$wp_scripts->add_data( 'html5_shiv', 'conditional', 'lt IE 9' );
 	$wp_scripts->add_data( 'respond_js', 'conditional', 'lt IE 9' );
 
-	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true );
+	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.js', array('jquery'), '', true );
+	wp_enqueue_script( 'bootstrap-carousel_js', get_template_directory_uri() . '/js/bootstrap-carousel.js', array('jquery'), '', true );
 	wp_enqueue_script( 'theme_js', get_template_directory_uri() . '/js/theme.js', array('jquery', 'bootstrap_js'), '', true );
 
 }
