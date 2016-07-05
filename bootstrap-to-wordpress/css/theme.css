@@ -387,10 +387,20 @@ p.btn.btn-info.moreT {
 .moreT{
     margin-left: 0;
     padding-bottom: 45px;
-    color: #444;}
+    color: #444;
+    font-size: .5em;}
     
-    
-    
+img.borderless {
+    border:none;
+    float:left;
+    padding-right:10px;
+} 
+
+ img.borderlessr {
+    border:none;
+    float:right;
+    padding-left:10px;
+}    
 .bioM p{
     color: #481C10 !important;
     text-align: left;

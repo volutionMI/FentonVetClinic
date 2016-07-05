@@ -8361,24 +8361,27 @@ button.close {
 
 /* line 217, sass/_partials/bootstrap/_carousel.scss */
 .carousel-caption {
+  font-family: BenchNine, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2;
   position: absolute;
-  left: 15%;
-  right: 15%;
-  bottom: 20px;
+  bottom: 1px;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
+  color: #000;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 99%;
+  padding: 0 10px;
+  margin: 0 2px;
 }
-/* line 228, sass/_partials/bootstrap/_carousel.scss */
+/* line 231, sass/_partials/bootstrap/_carousel.scss */
 .carousel-caption .btn {
   text-shadow: none;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 239, sass/_partials/bootstrap/_carousel.scss */
+  /* line 242, sass/_partials/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
@@ -8388,7 +8391,7 @@ button.close {
     margin-top: -15px;
     font-size: 30px;
   }
-  /* line 249, sass/_partials/bootstrap/_carousel.scss */
+  /* line 252, sass/_partials/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     margin-left: -15px;
@@ -8400,7 +8403,7 @@ button.close {
     left: 15px;
     margin-right: -15px;
   }
-  /* line 259, sass/_partials/bootstrap/_carousel.scss */
+  /* line 262, sass/_partials/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-next {
     background-image: url(../images/arrow-right-1.png) !important;
@@ -8412,14 +8415,7 @@ button.close {
     margin-right: -15px;
   }
 
-  /* line 272, sass/_partials/bootstrap/_carousel.scss */
-  .carousel-caption {
-    left: 20%;
-    right: 20%;
-    padding-bottom: 30px;
-  }
-
-  /* line 279, sass/_partials/bootstrap/_carousel.scss */
+  /* line 282, sass/_partials/bootstrap/_carousel.scss */
   .carousel-indicators {
     bottom: 20px;
   }
