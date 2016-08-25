@@ -7,7 +7,7 @@
 <?php get_header(); ?>
    <div class="container main"> 
    	<?php get_sidebar(); ?>          
-    <div class=" col-sm-12 col-md-7">
+    <div class=" col-sm-12 col-md-6">
         <div class="inner">  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <div class="page-header">
             <h1><?php the_title(); ?></h1>
