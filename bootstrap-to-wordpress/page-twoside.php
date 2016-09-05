@@ -2,13 +2,13 @@
 /*
   Template Name: Two sidebars
 */
-
-?>
+  ?>
 <?php get_header(); ?>
    <div class="container main"> 
-   	<?php get_sidebar(); ?>          
-    <div class=" col-sm-12 col-md-6">
-        <div class="inner">  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    <?php get_sidebar(); ?>          
+    <div class=" col-xs-12 col-sm-6">
+       <div class="inner"> 
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <div class="page-header">
             <h1><?php the_title(); ?></h1>
           </div>
@@ -21,11 +21,8 @@
           </div>
             <p>No content is appearing for this page!</p>
           <?php endif; ?>
-       
-		</div><!--inner-->
-    </div><!--col-md-6-->
+        </div><!--inner-->
+      </div>
     <?php get_sidebar( 'right' ); ?>
-
-   
 <?php get_footer(); ?> 
-	   
+     

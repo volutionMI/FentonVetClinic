@@ -8481,6 +8481,47 @@ button.close {
   position: fixed;
 }
 
+
+#retro {
+  width: 550px;
+
+}
+
+#retro img{
+  border: solid 2px #506F33;
+  text-decoration: none!important;}
+  
+.hid {
+  margin-top: -7px;
+  visibility:hidden;
+  float: right;}
+  
+.hid img a {
+width: 125px;
+}
+
+
+#retro a p {
+text-decoration: none!important;
+visibility: invisible;}
+
+
+#retro a:hover {background: white;}
+
+#retro a:hover img {visibility:visible;}
+
+#retro a:hover p {visibility: visible; text-decoration: none!important;}
+
+#retro .child img{
+visibility:visible;
+width: 300px;}
+
+
+.hid a:hover {
+    visibility: visible;
+    float: right;
+}
+
 @-ms-viewport {
   width: device-width;
 }

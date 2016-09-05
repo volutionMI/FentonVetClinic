@@ -553,3 +553,66 @@ a.navbar-brand h2 {
     border-left: 2px solid #008000;}
 */
 }
+
+#retro {max-width:725px;
+margin: auto;}
+dl {
+    margin-top: 0;
+    margin-bottom: 18px;
+    margin-left: 14px;
+}
+
+
+#retro img {
+    border: solid 2px #506F33;
+    text-decoration: none!important;
+    padding: 0;}
+
+#retro img:first-child{
+    max-width:310px;
+    margin-bottom:20px;}
+  
+#retro img:last-child{
+   width:200px;}
+.hid {
+    visibility: hidden;
+    max-width: 300px;
+    margin-left: 20px;
+   
+    float: left;
+
+}
+  
+
+
+
+#retro a p {
+text-decoration: none!important;
+visibility: invisible;}
+
+
+#retro a:hover {background: white;}
+
+#retro a:hover img {visibility:visible;}
+
+#retro a:hover p {visibility: visible; text-decoration: none!important;}
+
+#retro .child img{
+visibility:visible;
+width: 300px;}
+
+
+.hid a:hover {
+    visibility: visible;
+    float: right;
+}
+
+
+dt.row {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+hr {
+    border-top: 1px solid #ad1232;
+}
